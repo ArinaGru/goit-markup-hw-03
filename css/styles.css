@@ -26,7 +26,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Utilites */
+/* Utilities */
 
 img {
   display: block;
@@ -54,6 +54,11 @@ img {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.section {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
 }
 
 
@@ -179,11 +184,6 @@ img {
   letter-spacing: 0.03em;
 }
 /* Features */
-
-.section {
-  padding-top: var(--section-padding);
-  padding-bottom: var(--section-padding);
-}
 
 .features {
   display: flex;
